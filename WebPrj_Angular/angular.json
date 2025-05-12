@@ -27,9 +27,20 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/fonts.css",
+              "src/assets/css/boxicons.css",
+              "src/assets/css/style.css",
+              "src/assets/css/persian-datepicker.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/feather.min.js",
+              "src/assets/js/font-awesome.min.js",
+              "src/assets/js/jquery.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/scripts.js",
+              "src/assets/js/persian-date.js",
+              "src/assets/js/persian-datepicker.js"
+            ]
           },
           "configurations": {
             "production": {
