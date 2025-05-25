@@ -1,13 +1,55 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>WebPrjAngular</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SB Admin pro - قالب داشبورد مدیریت بوت‌استرپ - بازاریابی</title>
+    <link rel="stylesheet" href="./templateSite/assets/css/fonts.css">
+    <link rel="stylesheet" href="./templateSite/assets/css/boxicons.css">
+    <link rel="stylesheet" href="./templateSite/assets/css/style.css">
+
+    <link rel="stylesheet" href="templateSite/assets/css/persian-datepicker.css" />
+
+<!-- برای استفاده از آیکن ها این دو فایل باید به هر صفحه اضافه شود -->
+    <script  defer="" src="./templateSite/assets/js/feather.min.js" ></script>
+    <script  defer="" src="./templateSite/assets/js/font-awesome.min.js" ></script>
+  </head>
+  <body class="nav-fixed">
+
+ <app-root></app-root>
+
+  <script src="./templateSite/assets/js/bootstrap.bundle.min.js" ></script>
+  <script src="./templateSite/assets/js/scripts.js"></script>
+  <script src="./templateSite/assets/js/jquery.js"></script>
+
+  <script src="./templateSite/assets/js/persian-date.js"></script>
+  <script src="./templateSite/assets/js/persian-datepicker.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $('#litepickerRangePluginAz').persianDatepicker({
+        format: 'YYYY/MM/DD',
+        autoClose: true
+      });
+      $('#litepickerRangePluginTo').persianDatepicker({
+        format: '- YYYY/MM/DD',
+        autoClose: true
+      });
+
+    });
+  </script>
+
+
+  <script src="./templateSite/assets/js/simple-datatables@latest.js"></script>
+  <script src="./templateSite/assets/js/simple-datatables@demo.js"></script>
+
+
+  <!-- chartsJs -->
+  <script src="./templateSite/assets/js/chart/Chart.min.js" ></script>
+  <script src="./templateSite/assets/js/chart/chart-area.js" ></script>
+  <script src="./templateSite/assets/js/chart/chart-bar.js" ></script>
+  <script src="./templateSite/assets/js/chart/chart-pie.js" ></script>
+
+
+  </body>
 </html>
