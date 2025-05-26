@@ -6,6 +6,7 @@ import { SidebarMainComponent } from "./components/mainLayout/sidebar-main/sideb
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [RouterOutlet, NavMainComponent, SidebarMainComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
