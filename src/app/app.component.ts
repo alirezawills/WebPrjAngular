@@ -13,4 +13,5 @@ import { SidebarMainComponent } from "./components/mainLayout/sidebar-main/sideb
 })
 export class AppComponent {
   title = 'WebPrjAngular';
+
 }
